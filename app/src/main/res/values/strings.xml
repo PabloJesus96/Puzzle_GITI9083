@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Puzzle_GITI9083</string>
+    <string-array name="opciones">
+        <item>Seleccione la imagen...</item>
+        <item>Números</item>
+        <item>Android</item>
+        <item>Mario</item>
+        <item>Payaso</item>
+        <item>Tasa</item>
+        <item>Goku</item>
+        <item>Danny Phantom</item>
+        <item>Love Programming</item>
+    </string-array>
+
+    <string-array name="tipos">
+        <item>Seleccione el nivel...</item>
+        <item>Libre</item>
+        <item>Clásico</item>
+        <item>Circular</item>
+    </string-array>
+</resources>

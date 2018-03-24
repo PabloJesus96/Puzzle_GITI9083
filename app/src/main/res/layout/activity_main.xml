@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pablo.barrientos.utng.edu.mx.puzzle_giti9083.MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/spn_opciones"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/opciones" />
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton android:background="@drawable/n1" android:id="@+id/button1" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n2" android:id="@+id/button2" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n3" android:id="@+id/button3" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n4" android:id="@+id/button4" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"  android:layout_height="0dp" android:layout_weight="1">
+            <ImageButton android:background="@drawable/n5" android:id="@+id/button5" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n6" android:id="@+id/button6" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n7" android:id="@+id/button7" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n8" android:id="@+id/button8" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"  android:layout_height="0dp" android:layout_weight="1">
+            <ImageButton android:background="@drawable/n9"  android:id="@+id/button9"  android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n10" android:id="@+id/button10" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n11" android:id="@+id/button11" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n12" android:id="@+id/button12" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"  android:layout_height="0dp" android:layout_weight="1">
+            <ImageButton android:background="@drawable/n13" android:id="@+id/button13" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n14" android:id="@+id/button14" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n15" android:id="@+id/button15" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+            <ImageButton android:background="@drawable/n16" android:id="@+id/button16" android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto" android:layout_weight="1"></ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/spn_tipos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/tipos"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_mezclar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Mezclar" />
+        <Button
+            android:id="@+id/btn_salir"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Salir" />
+    </LinearLayout>
+</LinearLayout>
